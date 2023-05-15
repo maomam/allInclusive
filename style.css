@@ -194,7 +194,7 @@ nav.active {
       display: grid;
       grid-template-columns: 1fr;
       gap: 8rem;
-      padding-right: 72px;
+      padding-right: 2rem;
       padding-top: 3.8rem;
       padding-left: 4rem;
       align-content: start;
