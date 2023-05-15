@@ -16,12 +16,16 @@
 
 body {
     display: grid;
-    grid-template-rows: repeat(auto-fit, 1fr);
+    /*grid-template-rows: repeat(auto-fit, 1fr);*/
     grid-template-columns: 1fr;
-    gap: 0px 8px;
+    gap: 0px 0px;
     background-color: #FFFCF7;
     font-family: "Atkinson Hyperlegible", sans-serif;
     margin: 0;
+}
+
+#about {
+min-height: 100vh;
 }
 
 
@@ -89,6 +93,11 @@ p {
     justify-content: center;
     margin-top: 16px;
     margin-bottom: 16px;
+}
+
+#special {
+    margin-bottom: 0;
+
 }
 
 .container {
@@ -345,8 +354,6 @@ a:hover {
     vertical-align: middle;
     color: #FFFCF7;
     text-decoration: none;
-
-
 }
 
 .button-rounded:hover {
@@ -360,6 +367,8 @@ flex-direction: column;
 justify-content: space-between;
 padding-left: 72px;
 padding-right: 72px;
+padding-top: 24px;
+padding-bottom: 32px;
 }
 
 .source{
