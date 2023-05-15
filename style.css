@@ -397,6 +397,7 @@ footer {
     padding-bottom: 1rem;
     padding-top: 1rem;
     background-color: #FFFCF7;
+    margin-top: 1rem;
 }
 
 #hand{
@@ -519,6 +520,17 @@ max-width: 60%;
         padding-left: 2rem;
         padding-right: 2rem;
         align-items: center;
+    }
+
+    .sourceSection{
+        padding-left: 2rem;
+        padding-right: 2rem;
+
+    }
+
+    .paragraph {
+        width: 100vw;
+        max-width:  420px;
     }
 
 
