@@ -20,7 +20,7 @@ $(function () { // wait for document ready
                 triggerHook: 1, // show, when scrolled 10% into view
                 duration: "100%", // hide 10% before exiting view (80% + 10% from bottom)
             })
-            .setPin(slides[i], {pushFollowers: false})
+            .setPin(slides[i], {pushFollowers: true})
             .setClassToggle("#reveal", "visible") 
            // .addIndicators() // add indicators (requires plugin)
             .addTo(controller);
