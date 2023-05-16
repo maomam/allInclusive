@@ -466,6 +466,10 @@ max-width: 60%;
         display: none;
     }
 
+    #logo{
+   margin-right: 12px;
+    }
+
     #hamburger {
         display: block;
         font-size: 200%;
