@@ -207,7 +207,7 @@ nav.active {
       grid-template-columns: 1fr;
       gap: 8rem;
       padding-right: 2rem;
-      padding-top: 3.8rem;
+      padding-top: 3.6rem;
       padding-left: 4rem;
       align-content: start;
       justify-content: space-evenly;
@@ -526,7 +526,7 @@ max-width: 60%;
     header {
         padding-left: 2rem;
         padding-right: 2rem;
-        width: 100vw;
+        width: 100%;
     }
 
     .panel{
