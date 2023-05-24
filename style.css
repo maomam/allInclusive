@@ -414,6 +414,10 @@ footer {
 
 }
 
+footer a{
+ font-weight: normal;
+}
+
 #hand{
 margin-block-end: 0;
 line-height: 18px;
@@ -512,14 +516,14 @@ max-width: 60%;
     }
 
     .icon{
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
     }
 
     footer {
-        padding-left: 2rem;
-        padding-right: 2rem;
-        width: 100vw;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        width:100%
     }
 
     footer ul {
@@ -563,6 +567,15 @@ max-width: 60%;
         flex-direction: row;
         gap: 8px;
         bottom: 0px;
+        width:100%;
     }
+
+    .moveItem{
+        padding-left:6px; 
+        padding-right:6px; 
+    }
+   footer ul{
+    grid-gap: 24px;
+}
 }
 
