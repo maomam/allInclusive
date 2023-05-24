@@ -17,7 +17,7 @@ $(function () { // wait for document ready
     for (var i=0; i<slides.length; i++) {
         new ScrollMagic.Scene({
                 triggerElement: slides[i],
-                triggerHook: 1, // show, when scrolled 10% into view
+                triggerHook: 0.8, // show, when scrolled 10% into view
                 duration: "100%", // hide 10% before exiting view (80% + 10% from bottom)
             })
             .setPin(slides[i], {pushFollowers: false})
