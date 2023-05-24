@@ -239,7 +239,7 @@ nav li {
   .moveActive{
     background-color: #38806F;
     color: #FFFCF7;
-    border-radius: 24px;
+    border-radius: 8px;
   }
 
   .move{
