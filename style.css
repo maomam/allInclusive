@@ -254,7 +254,7 @@ nav li {
   border-radius: 16px;
   padding-left: 12px;
   padding-right: 16px;
-  padding-top: 24px;
+  padding-top: 16px;
   padding-bottom: 8px;
   }
 
@@ -467,8 +467,9 @@ max-width: 60%;
   }
 
 @media only screen and (max-width: 768px) {
-
-
+p{
+    margin-block-start: 0.5em;
+}
     #navigation {
         display: none;
     }
@@ -542,6 +543,7 @@ max-width: 60%;
 
     .panel{
         height: auto;
+        padding-bottom: 100px;
         min-height: 100vh;
         padding-left: 2rem;
         padding-right: 2rem;
@@ -567,14 +569,13 @@ max-width: 60%;
 
     .button-rounded {
         padding-bottom: 0.75rem;
-        margin-top: 2rem;
+        margin-top: 1.25rem;
     }
 
     .move{
         flex-direction: row;
         gap: 8px;
         bottom: 0px;
-        width:100%;
     }
 
     .moveItem{
