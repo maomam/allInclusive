@@ -569,6 +569,8 @@ p{
     .paragraph {
         width: 100vw;
         max-width:  420px;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 
 
