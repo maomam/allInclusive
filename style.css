@@ -38,17 +38,30 @@ min-height: 100vh;
 
 .panel {
     height: 100vh;
-    padding-left: 72px;
-    padding-right: 72px;
+   /* padding-left: 72px;
+    padding-right: 72px;*/
     padding-top: 48px;
-    padding-bottom: 80px;
+    /*padding-bottom: 80px;*/
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     margin: 0;
     position: relative;
-    
+}
+
+.panelContent{
+    padding-left: 72px;
+    padding-right: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    padding-bottom: 80px;
+
 }
 
 .panelText{
@@ -141,6 +154,7 @@ p {
     justify-content: start;
     padding: 72px;
     margin-top: 4rem;
+    margin-bottom: 2rem;
 }
 
 .introText {
@@ -332,7 +346,7 @@ nav li {
     background-color: #F9FAE1;
 }
 
-.custom-shape-divider-top-1689957036 {
+.custom-shape-divider-bottom-1689957036 {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -342,20 +356,57 @@ nav li {
     transform: rotate(180deg);
 }
 
+.custom-shape-divider-top-1689957036 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    background-color: none;
+}
+
+.custom-shape-divider-bottom-1689957036 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 48px;
+}
+
 .custom-shape-divider-top-1689957036 svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
     height: 48px;
-    
 }
 
-.custom-shape-divider-top-1689957036 .fOne{
+.custom-shape-divider-bottom-1689957036 .fOne{
     fill: #E9F9E5;
 }
 
 .custom-shape-divider-top-1689957036 .fTwo{
     fill: #FAF0E1;
+}
+
+.custom-shape-divider-top-1689957036 .fThree{
+    fill: #F5E5E1;
+}
+
+.custom-shape-divider-top-1689957036 .fFour{
+    fill: #D8F0EA;
+}
+
+.custom-shape-divider-top-1689957036 .fFive{
+    fill: #E5F0D8;
+}
+
+.custom-shape-divider-top-1689957036 .fSix{
+    fill: #E1F0FA;
+}
+
+.custom-shape-divider-top-1689957036 .fSeven{
+    fill: #F9FAE1;
 }
 
 
@@ -541,12 +592,15 @@ p{
         align-items: center;
         flex-direction: column;
         padding: 2rem;
-        margin: 0;
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 2rem;
     }
 
 
     .sub {
-        max-width: 80%;
+        max-width: 85%;
     }
 
 
@@ -581,12 +635,21 @@ p{
 
     .panel{
         height: auto;
+       /* padding-bottom: 100px;
+        min-height: 100vh;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        align-items: center;*/
+        padding-top: 48px;
+    }
+
+    .panelContent{
         padding-bottom: 100px;
         min-height: 100vh;
         padding-left: 2rem;
         padding-right: 2rem;
         align-items: center;
-        padding-top: 32px;
+
     }
 
     .panelText{
