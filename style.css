@@ -144,7 +144,7 @@ p {
     width: 310px;
     height: 362px;
     border-radius: 12px;
-    background: url(img/picture.png) no-repeat center / cover;
+    background: url(svg/brain.svg) no-repeat center / cover;
     margin-bottom: -250px;
 }
 
