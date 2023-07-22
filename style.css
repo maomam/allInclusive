@@ -144,7 +144,7 @@ p {
     width: 310px;
     height: 362px;
     border-radius: 12px;
-    background: url(svg/brain.svg) no-repeat center / cover;
+    background: url(svg/brain.svg) no-repeat center / contain;
     margin-bottom: -250px;
 }
 
@@ -581,11 +581,15 @@ p{
     .text {
         max-width: 100vw;
         margin-bottom: 2rem;
+        order: 2;
     }
 
     .picture {
         max-width: 100vw;
         margin-bottom: 0;
+        order: 1;
+        width: 186px;
+        height: 217px;
     }
 
     .info {
