@@ -53,6 +53,7 @@ min-height: 100vh;
 .panelContent{
     padding-left: 72px;
     padding-right: 72px;
+    padding-top: 24px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
