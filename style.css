@@ -189,20 +189,23 @@ header {
 
 
 #logo {
-    width: 64px;
-    height: 64px;
+    width: 48px;
+    height: 48px;
     margin-right: 24px;
 }
 
 
 #logoArea {
     display: inline-flex;
+   align-items: center;
 }
 
 .title {
     font-size: 24px;
     font-weight: bold;
     color: #083200;
+    margin-block-start: auto;
+    margin-block-end: auto;
 }
 
 #hamburger {
@@ -554,8 +557,8 @@ p{
     margin-block-start: 0.5em;
 }
 .title {
-    margin-block-start: 0.9em;
-    margin-block-end: 0em;
+    margin-block-start: auto;
+    margin-block-end: auto;
 }
 
     #navigation {
