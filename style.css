@@ -34,6 +34,8 @@ min-height: 100vh;
 
 .divider {
     position: relative;
+    height: 48px;
+    z-index: -3;
 }
 
 .panel {
@@ -116,7 +118,6 @@ p {
     align-items: center;
     justify-content: center;
     margin-top: 16px;
-    margin-bottom: 16px;
 }
 
 #special {
@@ -357,6 +358,9 @@ nav li {
     width: 100%;
     overflow: hidden;
     line-height: 0;
+}
+
+.rotate {
     transform: rotate(180deg);
 }
 
