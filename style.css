@@ -123,6 +123,17 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    padding-bottom: 48px;
+}
+
+section.intro > .divider {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 48px;
+    margin: 0;
 }
 
 #special {
@@ -581,11 +592,6 @@ p{
     #hamburger {
         display: block;
         font-size: 200%;
-    }
-
-    section.intro {
-        display: block;
-        padding-bottom: 0;
     }
 
     .container {
