@@ -124,7 +124,6 @@ p {
     align-items: center;
     justify-content: center;
     position: relative;
-    padding-bottom: 48px;
 }
 
 section.intro > .divider {
@@ -134,6 +133,12 @@ section.intro > .divider {
     right: 0;
     height: 48px;
     margin: 0;
+    z-index: 0;
+}
+
+section.intro > .container {
+    position: relative;
+    z-index: 1;
 }
 
 #special {
@@ -592,6 +597,10 @@ p{
     #hamburger {
         display: block;
         font-size: 200%;
+    }
+
+    section.intro {
+        padding-bottom: 48px;
     }
 
     .container {
