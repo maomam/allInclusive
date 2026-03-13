@@ -716,8 +716,10 @@ p{
         flex-direction: row;
         gap: 8px;
         bottom: 0px;
-        left: 50%;
-        transform: translateX(-50%);
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: fit-content;
     }
 
     .moveItem{
