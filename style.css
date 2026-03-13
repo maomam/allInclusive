@@ -689,6 +689,8 @@ p{
         flex-direction: row;
         gap: 8px;
         bottom: 0px;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     .moveItem{
