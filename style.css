@@ -243,6 +243,7 @@ nav.active {
       background: #FFFCF7;
       /* Seite füllen */
       position: fixed;
+      z-index: 100;
       right: 0em;
       top: 0em;
       height: 100vh;
