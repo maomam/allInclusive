@@ -131,6 +131,9 @@ p {
     z-index: 0;
     padding-top: 60px;
     padding-bottom: 60px;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 .intro-wave {
@@ -263,7 +266,7 @@ nav.active {
       top: 0;
       left: 0;
       right: 0;
-      width: 100vw;
+      width: 100%;
       height: 100vh;
       overflow: hidden;
       display: grid;
@@ -597,6 +600,12 @@ max-width: 60%;
   }
 
 @media only screen and (max-width: 768px) {
+body, main {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 p{
     margin-block-start: 0.5em;
 }
@@ -682,9 +691,11 @@ p{
     }
 
     header {
+        display: flex;
         padding-left: 16px;
         padding-right: 2rem;
         width: 100%;
+        box-sizing: border-box;
     }
 
     .panel{
