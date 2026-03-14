@@ -17,6 +17,10 @@
     box-sizing: border-box;
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 
 body {
     display: grid;
@@ -244,8 +248,10 @@ nav.active {
       z-index: 100;
       top: 0;
       left: 0;
+      right: 0;
       width: 100vw;
       height: 100vh;
+      overflow: hidden;
       display: grid;
       grid-template-columns: 1fr;
       gap: 8rem;
@@ -271,8 +277,11 @@ nav li {
   }
   
 #close{
+  position: absolute;
+  top: 40px;
+  right: 2rem;
   font-size: 200%;
-  justify-self: end;
+  line-height: 1;
   cursor: pointer;
   }
 
@@ -694,7 +703,7 @@ p{
     }
 
     .paragraph {
-        width: 100vw;
+        width: 100%;
         max-width:  420px;
         padding-left: 2rem;
         padding-right: 2rem;
