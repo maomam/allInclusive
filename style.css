@@ -711,9 +711,8 @@ p{
     }
 
     .sourceSection{
-        padding-left: 2rem;
-        padding-right: 2rem;
-
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
     .paragraph {
