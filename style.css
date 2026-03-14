@@ -17,7 +17,7 @@
     box-sizing: border-box;
 }
 
-html, body {
+body {
     overflow-x: hidden;
 }
 
@@ -686,8 +686,11 @@ p{
     }
 
     footer ul {
-        grid-auto-flow: column;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
         padding-inline-start: 0px;
+        gap: 12px;
     }
 
     header {
@@ -767,17 +770,23 @@ p{
 
     .move{
         flex-direction: row;
-        gap: 8px;
+        gap: 4px;
         bottom: 0px;
         left: 0;
         right: 0;
         margin: 0 auto;
-        width: fit-content;
+        max-width: 100%;
+        width: 100%;
+        justify-content: center;
+        border-radius: 0;
+        padding-left: 4px;
+        padding-right: 4px;
     }
 
     .moveItem{
-        padding-left:6px; 
-        padding-right:6px; 
+        padding-left: 4px;
+        padding-right: 4px;
+        font-size: 14px;
     }
    footer ul{
     grid-gap: 24px;
