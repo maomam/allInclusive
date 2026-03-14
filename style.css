@@ -713,21 +713,28 @@ p{
     .sourceSection{
         padding-left: 16px;
         padding-right: 16px;
+        max-width: 100%;
+        box-sizing: border-box;
+        overflow: hidden;
     }
 
     .source {
         flex-direction: column;
         align-items: flex-start;
         gap: 4px;
+        max-width: 100%;
     }
 
     .source p {
         overflow-wrap: break-word;
+        word-wrap: break-word;
+        max-width: 100%;
         margin-block-end: 0;
     }
 
     .source a {
         word-break: break-all;
+        max-width: 100%;
     }
 
     .paragraph {
