@@ -243,8 +243,8 @@ header {
 }
 
 .title {
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 18px;
+    font-weight: normal;
     color: #083200;
     margin-block-start: auto;
     margin-block-end: auto;
