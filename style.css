@@ -603,7 +603,16 @@ p{
     }
 
     section.intro {
-        padding-bottom: 48px;
+        padding-bottom: 72px;
+    }
+
+    section.intro > .container {
+        z-index: auto;
+    }
+
+    section.intro > .divider {
+        height: 72px;
+        z-index: auto;
     }
 
     .container {
