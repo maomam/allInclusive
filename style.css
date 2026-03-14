@@ -716,17 +716,18 @@ p{
     }
 
     .source {
+        flex-direction: column;
         align-items: flex-start;
+        gap: 4px;
     }
 
     .source p {
-        flex: 1;
-        min-width: 0;
         overflow-wrap: break-word;
+        margin-block-end: 0;
     }
 
     .source a {
-        flex-shrink: 0;
+        word-break: break-all;
     }
 
     .paragraph {
