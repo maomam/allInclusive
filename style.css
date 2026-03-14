@@ -715,6 +715,20 @@ p{
         padding-right: 16px;
     }
 
+    .source {
+        align-items: flex-start;
+    }
+
+    .source p {
+        flex: 1;
+        min-width: 0;
+        overflow-wrap: break-word;
+    }
+
+    .source a {
+        flex-shrink: 0;
+    }
+
     .paragraph {
         width: 100%;
         max-width:  420px;
