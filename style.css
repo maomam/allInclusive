@@ -130,20 +130,6 @@ p {
     position: relative;
 }
 
-section.intro > .divider {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 48px;
-    margin: 0;
-    z-index: 0;
-}
-
-section.intro > .container {
-    position: relative;
-    z-index: 1;
-}
 
 #special {
     margin-bottom: 0;
@@ -602,18 +588,6 @@ p{
         font-size: 200%;
     }
 
-    section.intro {
-        padding-bottom: 72px;
-    }
-
-    section.intro > .container {
-        z-index: auto;
-    }
-
-    section.intro > .divider {
-        height: 72px;
-        z-index: auto;
-    }
 
     .container {
         flex-direction: column;
