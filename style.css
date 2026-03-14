@@ -37,10 +37,8 @@ min-height: 100vh;
 }
 
 main {
-    margin-top: -11px;
+    margin: 0;
     padding: 0;
-    position: relative;
-    z-index: 1;
 }
 
 
@@ -48,12 +46,6 @@ main {
     position: relative;
     height: 48px;
     margin-bottom: -2px;
-}
-
-.intro + .divider {
-    margin-top: -11px;
-    position: relative;
-    z-index: 2;
 }
 
 .panel {
@@ -136,6 +128,32 @@ p {
     align-items: center;
     justify-content: center;
     position: relative;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.intro-wave {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 60px;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.intro-wave-top {
+    top: 0;
+    transform: rotate(180deg);
+}
+
+.intro-wave-bottom {
+    bottom: 0;
+}
+
+.intro-wave svg {
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 60px;
 }
 
 
