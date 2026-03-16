@@ -278,6 +278,7 @@ nav.active {
       align-content: start;
       justify-content: center;
       border-radius: 0;
+       font-weight: 600;
   }
 
 nav ul {
