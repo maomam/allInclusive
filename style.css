@@ -225,6 +225,7 @@ header {
     padding-right: 72px;
     padding-top: 40px;
     padding-bottom: 40px;
+    min-height: 128px;
     display: flex;
     width: 100%;
     box-sizing: border-box;
@@ -249,8 +250,7 @@ header {
     font-size: 18px;
     font-weight: 700;
     color: #083200;
-    margin-block-start: auto;
-    margin-block-end: auto;
+    margin: 0;
 }
 
 #hamburger {
