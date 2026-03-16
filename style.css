@@ -178,6 +178,10 @@ p {
     bottom: 0;
 }
 
+.intro2 .intro-wave {
+    z-index: 1;
+}
+
 .intro-wave svg {
     display: block;
     width: calc(100% + 1.3px);
