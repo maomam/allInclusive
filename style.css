@@ -610,6 +610,9 @@ max-width: 60%;
 body, main {
     width: 100%;
     max-width: 100%;
+}
+
+body {
     overflow-x: hidden;
 }
 
@@ -712,6 +715,7 @@ p{
         height: auto;
         min-height: 100vh;
         padding-top: 48px;
+        overflow: visible;
     }
 
     .panelContent{
@@ -722,6 +726,9 @@ p{
         padding-left: 2rem;
         padding-right: 2rem;
         align-items: center;
+        gap: 24px;
+        justify-content: flex-start;
+        overflow: visible;
     }
 
     .panelText{
