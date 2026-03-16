@@ -467,14 +467,13 @@ ul {
     grid-auto-flow: column;
     grid-gap: 32px;
     align-items: center;
-      font-weight:400;
 }
 
 a {
     text-decoration: none;
     color: #38806F;
     font-size: 1.2rem;
-    font-weight:bold;
+    font-weight:400;
 }
 
 a:hover {
