@@ -247,7 +247,7 @@ header {
 
 .title {
     font-size: 18px;
-    font-weight: normal;
+    font-weight: 700;
     color: #083200;
     margin-block-start: auto;
     margin-block-end: auto;
@@ -283,7 +283,7 @@ nav.active {
 nav ul {
       display: inline-grid;
       grid-auto-flow: row;
-      justify-items: start;
+      justify-items: center;
       grid-gap: 1rem;
       padding: 0;
       list-style: none;
