@@ -292,7 +292,7 @@ nav ul {
   
 nav li {
       font-size: 1.75rem;
-      font-weight: 400;
+      font-weight: 600;
       margin-bottom: 1.5rem;
   }
   
@@ -467,6 +467,7 @@ ul {
     grid-auto-flow: column;
     grid-gap: 32px;
     align-items: center;
+      font-weight:400;
 }
 
 a {
