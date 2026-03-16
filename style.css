@@ -26,6 +26,7 @@ body {
     display: grid;
     /*grid-template-rows: repeat(auto-fit, 1fr);*/
     grid-template-columns: 1fr;
+    align-content: start;
     gap: 0px 0px;
     background-color: #FFFCF7;
     font-family: "Atkinson Hyperlegible", sans-serif;
