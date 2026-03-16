@@ -153,8 +153,9 @@ p {
     background-color: #38806F;
     color: #FFFCF7;
     width: 100%;
-     align-items: center;
+    align-items: center;
     justify-content: center;
+     display: flex;
 
     }
 
