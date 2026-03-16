@@ -137,7 +137,6 @@ p {
 }
 
 .intro2 {
-  
     display: flex;
     align-items: center;
     justify-content: center;
@@ -146,7 +145,7 @@ p {
     padding-top: 60px;
     padding-bottom: 60px;
     width: 100%;
-    box-sizing: border-box;
+  
 }
 
 .headingspecial{
