@@ -327,8 +327,8 @@ nav li {
   
 #close{
   position: absolute;
-  top: 40px;
-  right: 2rem;
+  top: 48px;
+  right: 48px;
   font-size: 200%;
   line-height: 1;
   cursor: pointer;
@@ -506,7 +506,8 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;
+    color: #083200;
+    text-decoration: none;
 }
 
 .button-rounded {
