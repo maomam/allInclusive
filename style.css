@@ -145,7 +145,6 @@ p {
     padding-top: 60px;
     padding-bottom: 60px;
     width: 100%;
-    box-sizing: border-box;
 }
 
 
@@ -179,9 +178,9 @@ p {
     bottom: 0;
 }
 
-.intro2 .intro-wave svg {
+.intro2 .intro-wave {
     z-index: 1;
-    width: 100%;
+
 }
 
 .intro-wave svg {
