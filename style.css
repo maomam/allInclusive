@@ -641,6 +641,15 @@ body, main {
     max-width: 100%;
 }
 
+.intro2 {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.headingspecial {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 
 body {
     overflow-x: hidden;
@@ -800,7 +809,6 @@ p{
 
     #portrait {
         width: 100%;
-        max-width: 420px;
     }
 
 
