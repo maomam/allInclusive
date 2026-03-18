@@ -180,6 +180,7 @@ p {
 
 .intro2 .intro-wave {
     z-index: 1;
+     width: calc(100% + 1.3px);
 }
 
 .intro-wave svg {
