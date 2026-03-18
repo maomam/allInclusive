@@ -147,16 +147,6 @@ p {
     width: 100%;
 }
 
-.intro2::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 60px;
-    bottom: 60px;
-    background-color: #38806F;
-    z-index: -2;
-}
 
 .headingspecial{
     background-color: #38806F;
