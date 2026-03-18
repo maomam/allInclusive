@@ -154,7 +154,8 @@ p {
     width: 100%;
     align-items: center;
     justify-content: center;
-     display: flex;
+    display: flex;
+    bottom:0;
 
     }
 
