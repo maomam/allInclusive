@@ -155,7 +155,6 @@ p {
     align-items: center;
     justify-content: center;
     display: flex;
-    bottom:0;
 
     }
 
@@ -177,6 +176,7 @@ p {
 
 .intro-wave-bottom {
     bottom: 0;
+    top:0;
 }
 
 .intro2 .intro-wave {
@@ -643,10 +643,10 @@ body, main {
 
 .intro2 {
     align-items: stretch;
+    overflow: hidden;
 }
 
 .headingspecial {
-    padding-bottom: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
