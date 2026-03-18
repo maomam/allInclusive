@@ -641,8 +641,15 @@ body, main {
     max-width: 100%;
 }
 
+.intro2 {
+    align-items: stretch;
+}
+
 .headingspecial {
     padding-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 body {
