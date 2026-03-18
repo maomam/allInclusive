@@ -641,6 +641,10 @@ body, main {
     max-width: 100%;
 }
 
+.headingspecial {
+    padding-bottom: 60px;
+}
+
 body {
     overflow-x: hidden;
 }
