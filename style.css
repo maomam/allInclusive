@@ -179,8 +179,9 @@ p {
     bottom: 0;
 }
 
-.intro2 .intro-wave {
+.intro2 .intro-wave svg {
     z-index: 1;
+    width: 100%;
 }
 
 .intro-wave svg {
